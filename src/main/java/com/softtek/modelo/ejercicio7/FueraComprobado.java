@@ -1,7 +1,7 @@
-package com.softtek.modelo;
+package com.softtek.modelo.ejercicio7;
 
 public class FueraComprobado extends Exception{
-    public FueraComprobado (int indice){
+    public FueraComprobado (){
         super ("El producto está fuera de los parámetros obligatorios");
     }
 }

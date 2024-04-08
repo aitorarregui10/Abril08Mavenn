@@ -1,16 +1,12 @@
-package com.softtek.modelo;
+package com.softtek.modelo.ejercicio7;
 
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
 public class Producto {
-
+/*
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-
+*/
     //Atributos
     private int ID;
     private String nombre;
@@ -31,10 +27,13 @@ public class Producto {
 
     //Método
 
-    public boolean comprobar() {
+    public boolean comprobar() throws Exception {
+        boolean comprobar;
         if (comprobar = true) {
-
+            System.out.println("El producto es correcto, puedes seguir");
+            return comprobar;
+        }else {
+            throw new Exception("El producto es incorrecto");
         }
-        return false;
     }
 }
