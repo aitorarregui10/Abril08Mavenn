@@ -16,8 +16,8 @@ public class PruebaProducto {
                 //p2.comprobar();
                 //p3.comprobar();
                 //p4.comprobar();
-                //p5.comprobar();
-                p6.comprobar();
+                p5.comprobar();
+                //p6.comprobar();
 
                 // p1 y 2 petan por no tener ID o por ser 0. p3 peta porque el nombre es null y p4 peta porque el precio es 0.
                 //El único que funciona es el p5 que tiene todos los datos Ok y el p6 que faltan datos que nos dan igual
